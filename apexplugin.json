@@ -1,0 +1,36 @@
+{
+  "name": "Zero-shot classification",
+  "version": "26.1.0",
+  "description": "Classifies the text of a page item in the browser with Transformers.js zero-shot classification and writes the value of the winning category to another page item",
+  "keywords": ["zero-shot", "classification", "ai", "ml", "nlp", "transformers.js", "webgpu", "sentiment", "dynamic action"],
+  "homepage": "https://github.com/lufcmattylad/Zero-shot-classification-apex-plugin",
+  "bugs": {
+    "url": "https://github.com/lufcmattylad/Zero-shot-classification-apex-plugin/issues",
+    "email": "lufcmattylad+zero-shot-classification-apex-plugin@gmail.com"
+  },
+  "license": "MIT",
+  "commercial": "No",
+  "author": {
+    "name": "Matt Mulvaney",
+    "email": "lufcmattylad+contact@gmail.com",
+    "url": "https://x.com/Matt_Mulvaney",
+    "twitter": "Matt_Mulvaney",
+    "donationUrl": "https://www.justgiving.com/saintmichaelshospice"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lufcmattylad/Zero-shot-classification-apex-plugin.git"
+  },
+  "oracle": {
+    "versions": ["23.2.0", "21.1.0", "19.1.0"],
+    "apex": {
+      "versions": ["26.1.0"],
+      "plugin": {
+        "internalName": "LUFCMATTYLAD_ZERO_SHOT_CLASSIFCATION",
+        "type": "dynamic action",
+        "demo": "https://github.com/lufcmattylad/Zero-shot-classification-apex-plugin",
+        "previewImage": "https://raw.githubusercontent.com/lufcmattylad/Zero-shot-classification-apex-plugin/main/assets/preview.gif?raw=true"
+      }
+    }
+  }
+}
